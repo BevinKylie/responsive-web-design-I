@@ -24,100 +24,152 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
+    background-image: url("https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/background-img.png");
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 * {
   box-sizing: border-box;
 }
+
 html, body {
   height: 100%;
   font-family: 'Titillium Web', sans-serif;
 }
+
 h1, h2, h3, h4, h5 {
   font-family: 'Bangers', cursive;
   letter-spacing: 1px;
   margin-bottom: 5px;
   margin-top:15px;
 }
+
 header {
-  width: 100%;
-  height:70px;
-  text-align: justify;
-  line-height: 85px;
-  background-color:grey;
-  overflow: hidden;
-  position:fixed;
-  top: 0;
-  left:0;
-  box-shadow: 0px 2px 6px #000000;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    background-color:grey;
+    overflow: hidden;
+    position:auto;
+    top: 0;
+    left:0;
+    box-shadow: 0px 2px 6px #000000;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 0px 25px 0 25px;
+  }
+
+  .header a {
+    width: 100%;
+    margin-left:5%;
+    margin-right: 15px;
+    color:white;
+  }
+
+  .header: after {
+    display: inline-block;
+    width: 100%;
+    content: '';
+  }
+
+.header-img {
+  margin-top: 60px;
+  border-radius: 15px;
 }
+
+/*
+.tinted-image {
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(255, 255, 255, 0.45), 
+        rgba(255, 255, 255, 0.45)
+      ),
+      /* bottom, image */
+      url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2852&q=80");
+  }
+  */
+
 .section {
   display: inline-block;
 }
-.header a {
-  width: 100%;
-  margin-left:5%;
-  color:white;
-}
-.header:after {
-  display: inline-block;
-  width: 100%;
-  content: '';
-}
-.header-img {
-  margin-top: 60px;
-}
+
 .services-header-img {
     display: inline-block;
     margin-top: 20px;
     width: 100%;
+    border-radius: 0px 25px 0 25px;
 }
+
+.services-info-img{
+    border-radius: 0px 25px 0 25px;
+    box-shadow: 0px 2px 6px #000000;
+    border: 2px solid black;  
+}
+
 .middle-img {
   display: inline-block;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100%;
+  border-radius: 0px 25px 0 25px;
 }
+
 .main {
   width: 100%;
 }
+
 .text-main {
   width: 49%;
   display: inline-block;
   text-align:center;
 }
+
 .img { 
   width: 49%;
   display: inline-block;
+  border-radius: 0px 25px 0 25px;
 }
+
 body {
   margin: 60px;
 }
+
 h1 {
   font-size: 60px;
   display: inline;
   margin-bottom: 2em;
 }
+
 .box {
   background: white;
   border: 1px solid black;
@@ -127,7 +179,9 @@ h1 {
   /* Box Model: Content Area */
   width: 150px;
   height: 100px;
+  border-radius: 0px 25px 0 25px;
 }
+
 .box2 {
     background: white;
     border: 1px solid black;
@@ -142,34 +196,40 @@ h1 {
     flex-direction: row;
     align-items: center;
 }
+
 .features {
   width: 49%;
   display: inline-block;
   text-align:left;
 }
+
 .about {
   width: 49%;
   display: inline-block;
   text-align:left;
 }
+
 .services {
   width: 33%;
   display: inline-block;
   text-align:left;
   padding: 10px;
 }
+
 .product {
   width: 33%;
   display: inline-block;
   text-align:left;
   padding: 10px;
 }
+
 .vision {
   width: 33%;
   display: inline-block;
   text-align:left;
   padding: 10px;
 }
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -200,6 +260,7 @@ h1 {
     align-items: flex-start;
     align-content: space-between;
 }
+
   .main-content {
     margin: 25px 0;
     display: flex;
@@ -209,6 +270,7 @@ h1 {
     align-content: center;
     border-radius: 5px;
    }
+
    .main-content div {
     width: 45%;
     height: 200px;
@@ -222,6 +284,7 @@ h1 {
     align-content: center;
     border-radius: 5px;
     padding-left: 15px;
+    box-shadow: 0px 2px 6px #000000;
    }
   
   .digitaldesign {
@@ -233,6 +296,7 @@ h1 {
     border: 2px solid black; 
     padding: 20px;
     line-height: 20px;
+    box-shadow: 0px 2px 6px #000000;
   }
   
   .nobox {
@@ -241,7 +305,8 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     line-height: 20px;
-    padding: 200px;}
+    padding: 200px;
+  }
   
   .uxui {
     width: 49%;
@@ -252,6 +317,7 @@ h1 {
     border: 2px solid black; 
     padding: 20px;
     line-height: 20px;
+    box-shadow: 0px 2px 6px #000000;
   }
   
   hr {
@@ -264,6 +330,7 @@ h1 {
   .footer{
     display: inline;
     line-height: 3px;
+    text-align: center;
   }
   
   .copyright{
