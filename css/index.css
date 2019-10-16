@@ -35,7 +35,7 @@ body {
 }
 
 body {
-    background-image: url("https://github.com/BevinKylie/responsive-web-design-I/blob/bevin-richardson/img/christopher-gower-m_HRfLhgABo-unsplash.png");
+    background-image: url("https://github.com/BevinKylie/responsive-web-design-I/blob/bevin-richardson/img/christopher-gower-m_HRfLhgABo-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -291,6 +291,7 @@ h1 {
     border-radius: 5px;
     padding-left: 15px;
     box-shadow: 0px 2px 6px #000000;
+    border-radius: 0px 25px 0 25px;
    }
   
   .digitaldesign {
