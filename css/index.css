@@ -32,7 +32,13 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    background-image: url("https://raw.githubusercontent.com/LambdaSchool/User-Interface/master/great-idea-website/img/background-img.png");
+}
+
+body {
+    background-image: url("https://raw.githubusercontent.com/BevinKylie/UI-III-Flexbox/master/great-idea/img/christopher-gower-m_HRfLhgABo-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 ol, ul {
