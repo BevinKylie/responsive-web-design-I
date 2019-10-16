@@ -35,10 +35,10 @@ body {
 }
 
 body {
-    background-image: url("https://github.com/BevinKylie/responsive-web-design-I/blob/bevin-richardson/img/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2852&q=80");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: auto;
+    background-position: left;
 }
 
 ol, ul {
