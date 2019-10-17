@@ -34,13 +34,6 @@ body {
     line-height: 1;
 }
 
-body {
-    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2852&q=80");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: left;
-}
-
 ol, ul {
     list-style: none;
 }
@@ -77,31 +70,40 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
+    display: flex;
     width: 100%;
     height:50px;
     text-align: center;
     line-height: 50px;
     background-color:grey;
-    overflow: hidden;
-    position:auto;
-    top: 0;
-    left:0;
     box-shadow: 0px 2px 6px #000000;
     margin-bottom: 30px;
     border-radius: 15px;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 0px 25px 0 25px;
+  }
+  
+  .header{
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  header nav {
+      display: flex;
+      justify-content: space-between;
+      width: 60%;
+  }
+
+  .header img{
   }
 
   .header a {
-    width: 100%;
-    margin-left:5%;
-    margin-right: 15px;
     color:white;
   }
 
-  .header: after {
+  .header:after {
     display: inline-block;
     width: 100%;
     content: '';
@@ -111,19 +113,6 @@ header {
   margin-top: 60px;
   border-radius: 15px;
 }
-
-/*
-.tinted-image {
-    background: 
-      /* top, transparent red, faked with gradient */ 
-      linear-gradient(
-        rgba(255, 255, 255, 0.45), 
-        rgba(255, 255, 255, 0.45)
-      ),
-      /* bottom, image */
-      url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2852&q=80");
-  }
-  */
 
 .section {
   display: inline-block;
@@ -215,25 +204,12 @@ h1 {
   text-align:left;
 }
 
-.services {
-  width: 33%;
-  display: inline-block;
-  text-align:left;
-  padding: 10px;
-}
-
-.product {
-  width: 33%;
-  display: inline-block;
-  text-align:left;
-  padding: 10px;
-}
-
-.vision {
-  width: 33%;
-  display: inline-block;
-  text-align:left;
-  padding: 10px;
+.content-boxes{
+    width: 32%;
+    display: inline-block;
+    text-align:left;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .flex-container {
@@ -344,3 +320,11 @@ h1 {
     text-align: center;
     margin-top: 30px;
   }
+
+@media(max-width: 800px){
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+}
