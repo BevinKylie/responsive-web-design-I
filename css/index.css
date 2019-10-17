@@ -27,7 +27,7 @@ time, mark, audio, video {
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+    display: flex;
 }
 
 body {
@@ -78,7 +78,6 @@ header {
     background-color:grey;
     box-shadow: 0px 2px 6px #000000;
     margin-bottom: 30px;
-    border-radius: 15px;
     align-content: center;
     justify-content: space-around;
     border-radius: 0px 25px 0 25px;
@@ -104,7 +103,7 @@ header {
   }
 
   .header:after {
-    display: inline-block;
+    display: flex;
     width: 100%;
     content: '';
   }
@@ -115,11 +114,11 @@ header {
 }
 
 .section {
-  display: inline-block;
+  display: flex;
 }
 
 .services-header-img {
-    display: inline-block;
+    display: flex;
     margin-top: 20px;
     width: 100%;
     border-radius: 0px 25px 0 25px;
@@ -132,7 +131,7 @@ header {
 }
 
 .middle-img {
-  display: inline-block;
+  display: flex;
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100%;
@@ -151,7 +150,7 @@ header {
 
 .img { 
   width: 49%;
-  display: inline-block;
+  display: flex;
   border-radius: 0px 25px 0 25px;
 }
 
@@ -326,5 +325,20 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: white;
+}
+img {
+    display: none;
+}
+header{
+    background-color: white;
+}
+nav{
+    color: darkgrey;
+}
+main{
+    align-content: center;
+}
+h1{
+    align-content: center;
 }
 }
