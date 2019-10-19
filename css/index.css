@@ -27,7 +27,7 @@ time, mark, audio, video {
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: inline;
+    display: flex;
 }
 
 body {
@@ -180,7 +180,9 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-
+.contact{
+  display: flex;
+}
 .logo{
   display:flex;
   flex-direction: row;
